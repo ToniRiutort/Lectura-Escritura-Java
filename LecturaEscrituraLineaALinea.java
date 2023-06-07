@@ -6,10 +6,7 @@ import java.io.FileReader;
 import java.io.BufferedReader;
 
 public class LecturaEscrituraLineaALinea {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         try(FileWriter fileWriter = new FileWriter("CESURCartelera.txt");
                 FileReader fin = new FileReader("CESURFichero.txt");
