@@ -3,7 +3,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
 
-public class FicherosCESUR11 {
+public class LecturaEscrituraCaracterACaracter {
 
     public static void main(String[] args) {
         int i = 0;
@@ -59,7 +59,7 @@ public class FicherosCESUR11 {
                     bufferedWriter.write("\n");
                     bufferedWriter.write("Sesión: ");
                 }
-                else if(i!=-1 && r == true && se == false && (char)i =='{'){
+                else if(i!=-1 && r == true && se == false && (char)i =='@'){
                     n = false;
                     a = false;
                     d = false;
